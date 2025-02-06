@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Saved Games\\Desktop\\תכנות\\פרקטיקוד\\ApiProject\\AuthServer\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\User\\Saved Games\\Desktop\\תכנות\\פרקטיקוד\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Saved Games\\Desktop\\תכנות\\פרקטיקוד\\ApiProject\\AuthServer\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\User\\Saved Games\\Desktop\\תכנות\\פרקטיקוד\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Saved Games\\Desktop\\תכנות\\פרקטיקוד\\ApiProject\\AuthServer\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Saved Games\\Desktop\\תכנות\\פרקטיקוד\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\User\\Saved Games\\Desktop\\תכנות\\פרקטיקוד\\ApiProject\\AuthServer\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\User\\Saved Games\\Desktop\\תכנות\\פרקטיקוד\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Saved Games\\Desktop\\תכנות\\פרקטיקוד\\ApiProject\\AuthServer\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\User\\Saved Games\\Desktop\\תכנות\\פרקטיקוד\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,6 +60,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
