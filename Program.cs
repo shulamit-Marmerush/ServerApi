@@ -34,15 +34,15 @@ builder.Services.AddDbContext<ToDoDbContext>(opt =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
+// if (app.Environment.IsDevelopment())
+// {
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "My API v1");
         options.RoutePrefix = string.Empty; 
     });
-}
+// }
 
 
 
@@ -92,6 +92,7 @@ app.MapDelete("/items/{id}", async (int id, ToDoDbContext db) =>
     await db.SaveChangesAsync();
     return Results.NoContent();
 });
+app.MapGet("/",()=>"server api is running");
 
 
 
