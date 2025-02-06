@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QepeNIp7hwNQ8u+ZpsjgNwIpPsrWQ/tGh44pv/kh1fm3zGm3X2oFCAwtws80ButbyoWHB/ieyeST1Bgy10GL2A==",
+  "dgSpecHash": "xOKDgg4op2d5rmww9VqoWBClWv4vjzAJQneiBThW2471sBrmU4QIW7+NZYi4MBoYxbsTzQMzJ+8yb46JYZmtwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Saved Games\\Desktop\\תכנות\\פרקטיקוד\\TodoApi\\TodoApi.csproj",
+  "projectFilePath": "C:\\Users\\User\\Saved Games\\Desktop\\תכנות\\פרקטיקוד\\ApiProject\\AuthServer\\TodoApi\\TodoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
