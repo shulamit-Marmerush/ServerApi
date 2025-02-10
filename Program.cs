@@ -1,8 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
-
-
 using TodoApi;
+
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,7 +27,7 @@ builder.Services.AddCors(options =>
 });
 builder.Services.AddEndpointsApiExplorer();
 
-// הוסף את DbContext
+
 builder.Services.AddDbContext<ToDoDbContext>(opt =>
     opt.UseMySql(builder.Configuration.GetConnectionString("ToDoDB"), 
                  new MySqlServerVersion(new Version(8, 0,41 ))));
@@ -48,7 +49,7 @@ var app = builder.Build();
 
 app.UseCors("AllowAll");
 
-// הגדר את המסלולים
+
 app.MapGet("/items", async (ToDoDbContext db) => await db.Items.ToListAsync());
 app.MapGet("/items/{id}", async (int id, ToDoDbContext db) =>
 {
@@ -73,7 +74,7 @@ app.MapPut("/items/{id}", async (int id, ToDoDbContext db, Item updatedItem) =>
         return Results.NotFound();
     
     item.Name = updatedItem.Name; 
-    item.IsComplete = updatedItem.IsComplete;
+    // item.IsComplete = updatedItem.IsComplete;
 
     await db.SaveChangesAsync();
     return Results.NoContent();
