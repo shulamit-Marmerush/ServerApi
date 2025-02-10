@@ -9,5 +9,5 @@ public partial class Item
 
     public string? Name { get; set; }
 
-    public sbyte? IsComplete { get; set; }
+    public Boolean? IsComplete { get; set; }
 }
