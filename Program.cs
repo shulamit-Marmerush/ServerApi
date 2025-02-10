@@ -74,7 +74,7 @@ app.MapPut("/items/{id}", async (int id, ToDoDbContext db, Item updatedItem) =>
         return Results.NotFound();
     
     item.Name = updatedItem.Name; 
-    // item.IsComplete = updatedItem.IsComplete;
+     item.IsComplete = updatedItem.IsComplete;
 
     await db.SaveChangesAsync();
     return Results.NoContent();
